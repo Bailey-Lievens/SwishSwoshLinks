@@ -21,7 +21,7 @@
 <body>
 
     <nav class="navigation">
-        <a href="/" id="websiteTitle">
+        <a href="https://project.baileylievens.be/swishswoshlinks/" id="websiteTitle">
             <?php echo(get_bloginfo('name')); ?>
         </a>
     </nav>
