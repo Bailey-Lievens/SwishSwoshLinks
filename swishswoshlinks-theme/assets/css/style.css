@@ -266,6 +266,7 @@ main {
 
 .link-container {
     display: flex;
+    width: 100%;
 }
 
 .link-part {
@@ -323,6 +324,10 @@ main {
     }
 
     /*Links*/
+    .link-container {
+        width: unset;
+    }
+
     .link-part--file {
         display: unset;
     }
