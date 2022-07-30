@@ -9,8 +9,8 @@ let linkLoaded = [];
 //Event listeners
 for(let i = 0; i < categoryHeaders.length; i++) {
     categoryHeaders[i].addEventListener("click", toggleCategory);
-    categoryState.push(0);
-    linkLoaded.push(0);
+    categoryState.push(1);
+    linkLoaded.push(1);
 }
 
 function toggleCategory(e) {
